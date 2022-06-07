@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*:before,*:after{ 
+    box-sizing:border-box; 
+     }
+
+.wrap{
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.header  h1 img{
+    height: 40px;
+}
+
+.menu{
+    display: flex;
+    width: 215px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 300px;
+}
+.menu a{
+    text-decoration: none;
+    color: #3F5D45;
+    font-size: 16px;
+    font-weight:600; 
+}
+.menu a:hover{
+    opacity: 0.5;
+}
+.banner img{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.main h2{
+    width: 300px;
+    padding:16px 0;
+    font-size: 24px;
+    text-align: center;
+    color: #EAF0ED;
+    font-weight:600;
+    font-family: PingFang TC;
+    background-color: #3F5D45;
+}
+.foodmenu {
+    font-size: 24px;
+    width: 300px;
+    text-align: center;
+}
+.foodmenu li {
+    border: 1px solid #EAF0ED;
+}
+.foodmenu a{
+    display: block;
+    padding:16px 0;
+    font-weight:600;
+    color: #3F5D45;
+    text-decoration: none;
+}
+.foodmenu a:hover{
+    background-color:#EAF0ED;
+
+}
+.main{
+    display: flex;
+}
+.sweet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.sweet li{
+    margin-bottom: 20px;
+}
+.picture{
+    position: relative;
+    height: 315px;
+}
+.today{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    color: #EAF0ED;
+    padding: 10px;
+    letter-spacing: 4px;
+    writing-mode: vertical-lr;
+    background-color: #3F5D45;
+}
+.like{
+    position: absolute;
+    top: 19px;
+    right: 22px;
+}
+.like a:hover{
+    opacity: 0.5;
+}
+.nameNT{
+    display: flex;
+    width: 300px;
+    text-align: center;
+    font-size: 20px;
+    color: #3F5D45;
+    border-left: 1px solid #EAF0ED;
+    border-right: 1px solid #EAF0ED;
+    border-top: 1px solid #EAF0ED ;
+    justify-content: center;
+}
+.name{
+    width: 173px;
+    padding: 14px 0;
+}
+.NT{
+    width: 127px;
+    padding: 14px 0;
+    font-weight: 600;
+    border-left:1px solid #EAF0ED ;
+}
+.bottom{
+    border: 1px solid #EAF0ED;
+    background-color:#EAF0ED ;
+}
+.bottom a{
+    display: block;
+    padding: 16px 80px;
+    text-align: center;
+    text-decoration: none;
+    color: #3F5D45;
+    font-weight: 600;
+    font-size: 24px;
+    
+}
+
+.bottom a:hover{
+    opacity: 0.5;
+}
+.page_numder{
+    display: flex;
+    justify-content: right;
+}
+.page_numder li {
+    width: 60px;
+    font-size: 20px;
+    border: 1px solid #EAF0ED;
+}
+.page_numder img{
+    height: 16px;
+}
+.page_numder a{
+    display: block;
+    padding: 16px;
+    color: #3F5D45;
+    text-align: center;
+    text-decoration: none;
+}
+.page_numder a:hover{
+    color: #EAF0ED;
+    background-color: #3F5D45;
+}
+.page_numder .page_left_right a:hover{
+    background-color: #EAF0ED;
+}
